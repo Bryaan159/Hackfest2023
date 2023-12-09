@@ -1,0 +1,10 @@
+{"contenido":[
+    {"tag":"saludo",
+        "patrones":["Hola","un saludo", "Hi", "Hello", "What's up"],
+        "respuestas":["Hola que tal", "Hi how are you", "Hola, que tal va tu día"]
+    },
+    {"tag":"despedida",
+        "patrones":["Adios", "Bye see you tomorrow", "Que tengas un agradable día, cuidate"],
+        "respuestas":["Cuidate, cada día es una oportunidad de venta", "Que tengas un buen día", "Me encanto poder ayudarte"]
+    }    
+]}
