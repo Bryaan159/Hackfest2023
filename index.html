@@ -1,104 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Web Design Mastery | Mon'sa</title>
+  </head>
+  <body>
+    <nav class="section__container nav__container">
+      <a href="#" class="nav__logo">Mon'sa</a>
+      <ul class="nav__links">
+        <li class="link"><a href="#">HOME</a></li>
+        <li class="link"><a href="#">SHOP</a></li>
+        <li class="link"><a href="#">PAGES</a></li>
+        <li class="link"><a href="#">BLOG</a></li>
+        <li class="link"><a href="#">LOOKBOOK</a></li>
+      </ul>
+      <div class="nav__icons">
+        <span><i class="ri-shield-user-line"></i></span>
+        <span><i class="ri-search-line"></i></span>
+        <span><i class="ri-shopping-bag-2-line"></i></span>
+      </div>
+    </nav>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Store</title>
-    <link rel="shortcut icon" href="./images/shop_869441.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/style.css">
-
-    <!-- Boxicons -->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-    <!-- Header -->
     <header>
-        <a class="logo" href="#">Smart Store</a>
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#feature">Feature</a></li>
-            <li><a href="#new">New</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="header-icons">
-            <a href="#"><i class="bx bx-shopping-bag"></i></a>
-            <div class="bx bx-menu" id="menu-icon"></div>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <p>EXTRA 55% OFF IN SPRING SALE</p>
+          <h1>Discover & Shop<br />The Trend Ss19</h1>
+          <button class="btn">SHOP NOW</button>
         </div>
+        <div class="header__image">
+          <img src="./assests/header.png" alt="header" />
+        </div>
+      </div>
     </header>
-    <section class="home" id="home">
-        <div class="home-text">
-            <h1>Men´s New <br><span>Arrivals</span></h1>
-            <p id="p">New colors, now also available in men´s sizing.</p>
-            <a href="#" class="btn">View Collection</a>
-        </div>
-        <div class="home-img">
-            <img src="./images/header.png" alt="header-image">
-        </div>
+
+    <section class="section__container collection__container">
+      <img src="./assests/collection.jpg" alt="collection" />
+      <div class="collection__content">
+        <h2 class="section__title">New Collection</h2>
+        <p>#35 ITEMS</p>
+        <h4>Available on Store</h4>
+        <button class="btn">SHOP NOW</button>
+      </div>
     </section>
 
-    <!-- Feature -->
-    <section class="featured" id="featured">
-        <div class="center-text">
-            <h2>Featured Categories</h2>
+    <section class="section__container sale__container">
+      <h2 class="section__title">On Sale</h2>
+      <div class="sale__grid">
+        <div class="sale__card">
+          <img src="./assests/sale-1.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">MAN OUTERWEAR</p>
+            <h4 class="sale__title">sale <span>40%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
         </div>
-
-        <div class="featured-content">
-            <div class="row">
-                <img src="./images/musthave-12.png">
-                <div class="fea-text">
-                    <h5>Mens</h5>
-                    <p>10 items</p>
-                </div>
-                <div class="row">
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="./images/musthave-6.png">
-                <div class="fea-text">
-                    <h5>Mens</h5>
-                    <p>10 items</p>
-                </div>
-                <div class="row">
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="./images/musthave-1.png">
-                <div class="fea-text">
-                    <h5>Mens</h5>
-                    <p>10 items</p>
-                </div>
-                <div class="row">
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <img src="./images/musthave-3.jpg">
-                <div class="fea-text">
-                    <h5>Mens</h5>
-                    <p>10 items</p>
-                </div>
-                <div class="row">
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
-                </div>
-            </div>
+        <div class="sale__card">
+          <img src="./assests/sale-2.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">WOMAN T-SHIRT</p>
+            <h4 class="sale__title">sale <span>25%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
         </div>
-
+        <div class="sale__card">
+          <img src="./assests/sale-3.jpg" alt="sale" />
+          <div class="sale__content">
+            <p class="sale__subtitle">JACKETS</p>
+            <h4 class="sale__title">sale <span>20%</span> off</h4>
+            <p class="sale__subtitle">- DON'T MISS -</p>
+            <button class="btn sale__btn">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Scripts in Javascript -->
-    <script src="./script.js"></script>
+    <section class="section__container musthave__container">
+      <h2 class="section__title">Must Have</h2>
+      <div class="musthave__nav">
+        <a href="#">ALL</a>
+        <a href="#">MAN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">BAG</a>
+        <a href="#">SHOES</a>
+      </div>
+      <div class="musthave__grid">
+        <div class="musthave__card">
+          <img src="./assests/musthave-1.png" alt="must have" />
+          <h4>Basic long sleeve T-shirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-2.png" alt="must have" />
+          <h4>Ribbed T-shirt with buttons</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-3.png" alt="must have" />
+          <h4>Jacket withside strips</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-4.png" alt="must have" />
+          <h4>High-heel tubular sandals</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-5.png" alt="must have" />
+          <h4>Coral fabric belt bag</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-6.png" alt="must have" />
+          <h4>Piggy skater slogan T-shirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-7.png" alt="must have" />
+          <h4>White platform boots</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-8.png" alt="must have" />
+          <h4>Sweater vest with sleeves</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-9.png" alt="must have" />
+          <h4>Slim fit pants</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-10.png" alt="must have" />
+          <h4>Gray backpack</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-11.png" alt="must have" />
+          <h4>Neon sweatshirt</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+        <div class="musthave__card">
+          <img src="assests/musthave-12.png" alt="must have" />
+          <h4>Hooded nautical jacket</h4>
+          <p><del>$45.00</del> $75.00</p>
+        </div>
+      </div>
+    </section>
 
-</head>
+    
+    <section class="section__container brands__container">
+      <div class="brand__image">
+        <img src="assests/brand-1.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assests/brand-2.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assests/brand-3.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assests/brand-4.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assests/brand-5.png" alt="brand" />
+      </div>
+      <div class="brand__image">
+        <img src="assests/brand-6.png" alt="brand" />
+      </div>
+    </section>
 
-<body>
+    <hr />
 
+    <footer class="section__container footer__container">
+      <div class="footer__col">
+        <h4 class="footer__heading">CONTACT INFO</h4>
+        <p>
+          <i class="ri-map-pin-2-fill"></i> San Salvador, San marcos calle vieja
+        </p>
+        <p><i class="ri-mail-fill"></i> support@monsa.com</p>
+        <p><i class="ri-phone-fill"></i>(+503) 63161769</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">COMPANY</h4>
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Work With Us</p>
+        <p>Our Blog</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">USEFUL LINK</h4>
+        <p>Help</p>
+        <p>Track My Order</p>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Shoes</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">INSTAGRAM</h4>
+        <div class="instagram__grid">
+          <img src="assests/instagram-1.jpg" alt="instagram" />
+          <img src="assests/instagram-2.jpg" alt="instagram" />
+          <img src="assests/instagram-3.jpg" alt="instagram" />
+          <img src="assests/instagram-4.jpg" alt="instagram" />
+          <img src="assests/instagram-5.jpg" alt="instagram" />
+          <img src="assests/instagram-6.jpg" alt="instagram" />
+        </div>
+      </div>
+    </footer>
 
-</body>
+    <hr />
 
+  </body>
 </html>
