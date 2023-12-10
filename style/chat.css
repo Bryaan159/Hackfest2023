@@ -1,7 +1,7 @@
 .chat-bar-collapsible {
     position: fixed;
     bottom: 0;
-    right: 50px;
+    right: 3px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -140,6 +140,20 @@
     margin-left: 10px;
     animation: floatup .5s forwards
 }
+/* Estilos para el indicador de estado */
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px; /* Espacio entre el ícono y el indicador de estado */
+}
+
+/* Estilo para el indicador de estado en línea */
+.online {
+    background-color: lightgreen; /* Cambia el color según tu preferencia */
+}
+
 
 @keyframes floatup {
     from {
@@ -161,7 +175,7 @@
         position: fixed;
         bottom: 0;
         right: 0;
-        width: 100%;
+        width: 70%;
     }
     .collapsible {
         width: 100%;
