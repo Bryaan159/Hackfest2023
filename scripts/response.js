@@ -26,9 +26,10 @@ function getBotResponse(input) {
             "mal": "Lamento escuchar eso. ¿Hay algo en lo que pueda asistirte?",
             "Mal": "No te preocupes, siempre hay formas de mejorar el día. ¿Cómo puedo ayudarte?",
             "catalogo de la nueva coleccion": "<a href='https://acortar.link/n5t0TP' target='_blank'>Catálogo de la nueva colección</a>",
-            "quiero comprar una prenda": "¡Genial! ¿Tienes algo específico en mente o necesitas ayuda para encontrar algo?",
+            "Quiero comprar una prenda": "¡Genial! ¿Tienes algo específico en mente o necesitas ayuda para encontrar algo?",
             "Tienes camisetas en oferta?": "¡Sí! Tenemos varias camisetas en oferta. ¿Te gustaría ver nuestros modelos?",
-            "Me gusta esta camiseta, ¿está disponible en mi talla?": "¡Claro! ¿Podrías decirme tu talla para verificar la disponibilidad?",
+            "Si me gustaria verlos":"<a href='https://drive.google.com/drive/folders/135EQ1co6TJFStdueovr2bEil1V1HOASQ?usp=sharing' target='_blank'>Recomendaciones</a>",
+            "Me gusta la 2 camiseta, ¿está disponible en mi talla?": "¡Claro! ¿Podrías decirme tu talla para verificar la disponibilidad?",
             "Cómo puedo realizar la compra?": "Puedes agregar la prenda al carrito y proceder al pago. ¿Necesitas ayuda con eso?",
             "Estoy listo para realizar la compra": "Perfecto. ¿Podrías proporcionarme tus detalles de envío para procesar el pedido?",
             "Tienes descuentos por tiempo limitado?": "¡Sí! Actualmente tenemos descuentos especiales en una amplia gama de prendas. ¿Te gustaría verlas?",
@@ -53,7 +54,7 @@ function getBotResponse(input) {
 function detectLanguage(input) {
     // Ejemplo básico: detectar si la entrada contiene palabras clave en inglés o español
     const englishKeywords = ["hello", "hi", "goodbye"];
-    const spanishKeywords = ["hola", "adios", "bien", "super bien", "mal", "quiero comprar una prenda","tienes camisetas en oferta?","catalogo de la nueva coleccion"];
+    const spanishKeywords = ["hola", "adios", "bien", "super bien", "mal", "quiero comprar una prenda","tienes camisetas en oferta?","catalogo de la nueva coleccion",""];
 
     const inputLowerCase = input.toLowerCase();
 
