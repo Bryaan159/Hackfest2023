@@ -5,6 +5,8 @@ function getBotResponse(input) {
         const responses = {
             "hello": "Hello there!",
             "hi": "Hello there!",
+            "Hi": "Hello there!",
+            "Hello":"Hello there!",
             "goodbye": "Talk to you later!"
             // Agregar más respuestas en inglés según sea necesario
         };
@@ -15,8 +17,13 @@ function getBotResponse(input) {
         }
     } else if (language === 'spanish') {
         const responses = {
-            "hola": "¡Hola!",
+            "hola": "¡Hola que tal en que te puedo ayudar!",
+            "Hola": "¡Hola como has estado!",
             "adios": "Hasta luego!",
+            "bien": "Me alegro que te encuentres super bien, en que puedo ayudarte",
+            "Bien": "Me alegro que te encuentres super bien, en que puedo ayudarte",
+            "mal": "No, me digas eso, recuerda un día mal no te define",
+            "Mal": "No me digas eso, te ayudare rapido para que te sientas mejor"
             // Agregar más respuestas en español según sea necesario
         };
         if (responses.hasOwnProperty(input)) {
@@ -32,7 +39,7 @@ function getBotResponse(input) {
 function detectLanguage(input) {
     // Ejemplo básico: detectar si la entrada contiene palabras clave en inglés o español
     const englishKeywords = ["hello", "hi", "goodbye"];
-    const spanishKeywords = ["hola", "adios"];
+    const spanishKeywords = ["hola", , "Hola","adios", "bien", "Bien", "super mal", "mal"];
 
     let containsEnglish = false;
     let containsSpanish = false;
