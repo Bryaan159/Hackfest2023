@@ -57,7 +57,7 @@ function detectLanguage(input) {
     // Ejemplo básico: detectar si la entrada contiene palabras clave en inglés o español
     const englishKeywords = ["hello", "hi", "goodbye"];
     const spanishKeywords = ["hola", "adios", "bien", "super bien", "mal", "quiero comprar una prenda","tienes camisetas en oferta?","catalogo de la nueva coleccion", "si me gustaria verlos", "me gusta la 2 camiseta, esta disponible en mi talla?","mi talla es m", "ok entonces dame 2 camisas", "cual es el precio de cada prenda", "como puedo realizar la compra?", "estoy listo para realizar la compra", "tienes descuentos por tiempo limitado?", "puedo devolver la prenda si no me queda bien?",
-    "que metodos de pago aceptan?", "ok","mi dirección es san salvador, san marcos", "cual es el tiempo estimado de entrega?", "estan disponibles las nuevas colecciones?", "perfecto gracias por tu ayuda"];
+    "que metodos de pago aceptan?", "ok","mi direccion es san salvador, san marcos", "cual es el tiempo estimado de entrega?", "estan disponibles las nuevas colecciones?", "perfecto gracias por tu ayuda"];
 
     const inputLowerCase = input.toLowerCase();
 
